@@ -18,7 +18,7 @@ const Form=()=>{
                 <input type="text" value={name} placeholder="Enter your name" onChange={greeting} />
             </label>
            <p>
-           {name && <h1>Hello, {name}!</h1>}
+           {name && <h1>Hello {name}!</h1>}
            </p>
             
         </div>
